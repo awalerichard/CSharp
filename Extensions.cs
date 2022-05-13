@@ -16,5 +16,18 @@ namespace Catalog{
             };
            
          }
+
+          public static UserDto AsDto(this User user)
+        {
+            return new UserDto{
+                
+                Id = user.Id,
+                Username = user.Username,
+                Password = user.Password,
+                CreatedDate = user.CreatedDate
+
+            };
+           
+         }
     }
 }

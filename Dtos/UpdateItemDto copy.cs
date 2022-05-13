@@ -13,7 +13,7 @@ public record UpdateItemDto{
         // public enum Status {get; init;}
 
         
-       // public int UserId {get; init;}
+       // public int Id {get; init;}
         //public DateTimeOffset CreatedDate {get; init;}
        // public DateTimeOffset UpdatedDate {get; init;}
        // public enum TaskStatus {get; init;}

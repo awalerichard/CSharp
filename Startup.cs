@@ -39,6 +39,7 @@ namespace IntegrifyCsharp
                 return new MongoClient(settings.ConnectionString);
             });
             services.AddSingleton<IItemsRepository, MongoDbItemRepository>();
+            services.AddSingleton<IUsersRepository, MongoDbUserRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

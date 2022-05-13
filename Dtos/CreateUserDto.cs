@@ -8,6 +8,7 @@ public record CreateUserDto{
 
        [Required]
         public string Username {get; init;}
+        [Required]
         public string Password {get; init;}
 
     }

@@ -8,6 +8,9 @@ namespace Catalog.Dtos
         public string Description {get; init;}
        // public int Id {get; init;}
         public DateTimeOffset CreatedDate {get; init;}
+        public enum Status{ Notstarted, OnGoing, Finished }   
+        
+            
 
        // public DateTimeOffset UpdatedDate {get; init;}
        
